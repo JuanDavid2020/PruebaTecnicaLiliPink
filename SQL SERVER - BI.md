@@ -3,11 +3,12 @@
 1.	(P) Crear modelo de bases de datos que permita manejar la información de los productos financieros para los clientes. 
 Tener en cuenta las siguientes características: 
 
-a.	Tipos de datos adecuados para optimización y almacenamiento  
-b.	Campos que sean necesarios para las transacciones de los clientes por sus diferentes productos 
-c.	Tamaños de los campos adecuados 
-d.	Optima normalización en las tablas 
-e.	Usar campos de control en las tablas para auditoría 
+ a.	Tipos de datos adecuados para optimización y almacenamiento  
+ b.	Campos que sean necesarios para las transacciones de los clientes por sus diferentes productos 
+ c.	Tamaños de los campos adecuados 
+ d.	Optima normalización en las tablas 
+  e.	Usar campos de control en las tablas para auditoría 
+
 
 2.	(P) Crear claves primarias a las tablas  
  
