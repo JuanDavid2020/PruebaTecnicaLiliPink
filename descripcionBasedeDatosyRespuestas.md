@@ -24,7 +24,7 @@ el uso de vistas puede ser óptimo en situaciones en las que simplifican el acce
  
 16.(T) Que es una tabla de hechos 
 
-***una tabla de hechos es una estructura de datos que almacena métricas cuantitativas clave y se utiliza  para realizar análisis y tomar decisiones informadas sobre el desempeño de una organización***
+***Una tabla de hechos es una estructura de datos que almacena métricas cuantitativas clave y se utiliza  para realizar análisis y tomar decisiones informadas sobre el desempeño de una organización***
  
 17.	(P) Como sería un modelo de estrella para esa bodega de datos. 
  
@@ -43,8 +43,28 @@ el uso de vistas puede ser óptimo en situaciones en las que simplifican el acce
    + Monitoreo en Tiempo Real
    + Alertas y Acciones
 
-20.	(T) ¿Que se debería tener en cuenta para hacer un buen modelo BI? 
+20.	(T) ¿Que se debería tener en cuenta para hacer un buen modelo BI?
 
+### Objetivos Claros:
+Definir claramente los objetivos del modelo BI. ¿Qué quieres lograr con este modelo? ¿Qué preguntas o problemas específicos deseas abordar?
+### Requisitos de Datos:
+Identificar y documentar los requisitos de datos necesarios para cumplir con los objetivos. ¿Qué datos son esenciales? ¿Dónde se encuentran? ¿Cómo se deben integrar?
+### Fuentes de Datos:
+Identificr las fuentes de datos de las que obtendrás la información necesaria. Esto puede incluir bases de datos, sistemas de registro, aplicaciones, hojas de cálculo, etc.
+### Limpieza y Calidad de Datos:
+Asegúrarde que los datos estén limpios, precisos y completos. La calidad de los datos es esencial para tomar decisiones informadas.
+### Modelo de Datos:
+Diseñar un modelo de datos que refleje la estructura de tu organización y sea fácil de entender. Esto incluye tablas de hechos, tablas de dimensiones y relaciones entre ellas.
+### Herramientas de BI:
+Seleccionar las herramientas de BI adecuadas para tu organización. Estas herramientas facilitarán la visualización, el análisis y la presentación de datos.
+### Seguridad y Privacidad:
+Implementar medidas de seguridad y control de acceso para proteger los datos sensibles. Cumple con las regulaciones de privacidad de datos, como el GDPR o HIPAA, si es necesario.
+### Integración de Datos:
+Asegúrar de que los datos de diferentes fuentes se integren de manera efectiva y se mantengan actualizados. La automatización de la integración de datos puede ser valiosa.
+### Diseño de Paneles de Control:
+Diseñar paneles de control y cuadros de mando que presenten la información de manera clara y significativa. Los usuarios deben poder acceder fácilmente a los datos relevantes.
+### Capacitación de Usuarios:
+Proporcionar capacitación a los usuarios y equipos que trabajarán con el modelo BI. Asegúrate de que comprendan cómo utilizar las herramientas y los datos de manera efectiva.
  
 
  
