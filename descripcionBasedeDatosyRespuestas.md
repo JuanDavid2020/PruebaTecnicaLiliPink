@@ -19,7 +19,14 @@
 
 ***Es una representación virtual de los datos almacenados en una o más tablas.
 el uso de vistas puede ser óptimo en situaciones en las que simplifican el acceso a los datos, mejoran la seguridad o el rendimiento, y proporcionan una capa de abstracción útil.***
- 
+
+
+ 13.	(P) Crear una ETL que permita llenar la tabla anterior y luego que genere un archivo txt
+```sql
+-- Generar un archivo de texto desde la tabla desnormalizada DECLARE @FilePath NVARCHAR(255) = 'C:\Ruta\Hacia\El\Archivo.txt';
+
+-- Exportar datos a un archivo de texto EXEC xp_cmdshell 'bcp "SELECT * FROM BaseDeDatos.dbo.TablaDesnormalizada" queryout "' + @FilePath + '" -T -c -t,';
+```
 15.(T) Escribir las posibles necesidades que podría presentar un usuario para realizar una bodega de datos con la base de datos del primer punto. 
 
 + Análisis de Rendimiento Financiero
