@@ -5,7 +5,7 @@
 
 5.	(T) ¿Explique brevemente para qué se crean índices a las tablas y que tipos de índices existen?
    
-****Los índices se crean en las tablas de una base de datos para mejorar el rendimiento de las consultas que reduce la carga en el motor de la base de datos y acelera las operaciones de búsqueda.***
+***Los índices se crean en las tablas de una base de datos para mejorar el rendimiento de las consultas que reduce la carga en el motor de la base de datos y acelera las operaciones de búsqueda.***
  
 6.	(T) ¿Qué diferencia existe entre una clave primaria y un índice?
    
@@ -68,7 +68,8 @@ el uso de vistas puede ser óptimo en situaciones en las que simplifican el acce
  
 19.	(T) ¿Cómo sería la mejor manera para presentar estos datos al usuario final? 
 
- ****Por medio de un dashboard seria la manera más optima para representar al cliente el comportamiento del modelo y registros en la base de datos**
+ ****Por medio de un dashboard seria la manera más optima para representar al cliente el comportamiento del modelo y registros en la base de datos***
+ 
 19.	(T) Para que se usan las medidas en un modelo BI 
 
 ***Para realizar:***
