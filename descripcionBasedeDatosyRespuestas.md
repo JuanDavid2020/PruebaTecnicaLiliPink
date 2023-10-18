@@ -50,7 +50,7 @@ Definir claramente los objetivos del modelo BI. ¿Qué quieres lograr con este m
 ### Requisitos de Datos:
 Identificar y documentar los requisitos de datos necesarios para cumplir con los objetivos. ¿Qué datos son esenciales? ¿Dónde se encuentran? ¿Cómo se deben integrar?
 ### Fuentes de Datos:
-Identificr las fuentes de datos de las que obtendrás la información necesaria. Esto puede incluir bases de datos, sistemas de registro, aplicaciones, hojas de cálculo, etc.
+Identificar las fuentes de datos de las que obtendrás la información necesaria. Esto puede incluir bases de datos, sistemas de registro, aplicaciones, hojas de cálculo, etc.
 ### Limpieza y Calidad de Datos:
 Asegúrarde que los datos estén limpios, precisos y completos. La calidad de los datos es esencial para tomar decisiones informadas.
 ### Modelo de Datos:
