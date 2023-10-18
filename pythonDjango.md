@@ -20,7 +20,7 @@ Prueba tecnica desarrollador
       if n == 1:
           return 1
       else:
-          return n + suma_enteros(n - 1)
+          return n + sumaEnteros(n - 1)
 n = 5
 resultado = sumaEnteros(n)
 print(f"La suma de los enteros desde 1 hasta {n} es {resultado}")
