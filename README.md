@@ -98,16 +98,10 @@ https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset
 import pandas as pd
 
 def mostrar_primeros_registros_csv(archivo_csv):
-    # Cargar los datos en un DataFrame de pandas
     data = pd.read_csv(archivo_csv)
-
-    # Muestra los primeros 5 registros
     print(data.head(5))
 
-# Ruta al archivo CSV descomprimido
 archivo_csv = "/content/Employee.csv"
-
-# Llama a la función para mostrar los primeros 5 registros
 mostrar_primeros_registros_csv(archivo_csv)
 ```
 
@@ -152,4 +146,19 @@ print(df_original)
 
 3.	¿Qué son las transformaciones en Apache Spark y por qué son importantes en el procesamiento de datos? 
 
-4.	Imagina que tienes datos almacenados en un bucket de AWS S3 en formato CSV. Describe los pasos que seguirías para usar AWS Glue para realizar una transformación de datos y cargar los resultados en una tabla de AWS Athena. Proporciona una breve descripción de cada paso. 
+***las transformaciones son operaciones que se aplican a un conjunto de datos distribuido, representado como un Resilient Distributed Dataset (RDD) o un DataFrame, para producir un nuevo conjunto de datos o modificar el existente las mas comunes son: map, filter, reduce, groupBy, join, union***
+
+4.	Imagina que tienes datos almacenados en un bucket de AWS S3 en formato CSV. Describe los pasos que seguirías para usar AWS Glue para realizar una transformación de datos y cargar los resultados en una tabla de AWS Athena. Proporciona una breve descripción de cada paso.
+
++ Configurar el entorno:Acceder a la consola de AWS y navega a los servicios de AWS Glue y Athena.
++ Crear un Crawler que es una herramienta que escanea los  datos en S3 para inferir la estructura y el esquema de los datos CSV. Esto generará metadatos utilizados en el catálogo de datos de AWS Glue.
++ Definir de la conexión de datos
++ Crear un Data Catalog
++ Crear  un Job de ETL: el Job, especifica la lógica de transformación que deseas aplicar a tus datos CSV
++ Mapeo de origen y destino: Definir la fuente de datos como la ubicación en S3 que se configuro y el destino como una tabla en Athena
++ Ejecución del Job de ETL
++ Crear una tabla en Athena
++ Consultar de datos en Athena
+
+
+
