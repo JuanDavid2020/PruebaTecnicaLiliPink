@@ -23,13 +23,26 @@ el uso de vistas puede ser óptimo en situaciones en las que simplifican el acce
 15.(T) Escribir las posibles necesidades que podría presentar un usuario para realizar una bodega de datos con la base de datos del primer punto. 
  
 16.(T) Que es una tabla de hechos 
+
+***una tabla de hechos es una estructura de datos que almacena métricas cuantitativas clave y se utiliza  para realizar análisis y tomar decisiones informadas sobre el desempeño de una organización***
  
 17.	(P) Como sería un modelo de estrella para esa bodega de datos. 
  
-18.	(T) ¿Como sería la mejor manera para presentar estos datos al usuario final? 
+18.	(T) ¿Cómo sería la mejor manera para presentar estos datos al usuario final? 
  
 19.	(T) Para que se usan las medidas en un modelo BI 
- 
+
+***Para realizar:***
+
+   + Seguimiento del Rendimiento
+   + Análisis Comparativo
+   + (Indicadores Clave de Desempeño)
+   + Análisis de Rentabilidad
+   + Predicción y Pronóstico
+   + Segmentación y Filtrado
+   + Monitoreo en Tiempo Real
+   + Alertas y Acciones
+
 20.	(T) ¿Que se debería tener en cuenta para hacer un buen modelo BI? 
 
  
