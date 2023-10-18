@@ -21,15 +21,54 @@
 el uso de vistas puede ser óptimo en situaciones en las que simplifican el acceso a los datos, mejoran la seguridad o el rendimiento, y proporcionan una capa de abstracción útil.***
  
 15.(T) Escribir las posibles necesidades que podría presentar un usuario para realizar una bodega de datos con la base de datos del primer punto. 
- 
+
++ Análisis de Rendimiento Financiero
++ Segmentación de Clientes
++ Gestión de Cuentas y Productos
++ Evaluación de Riesgos y Préstamos
++ Informe Ejecutivo y Toma de Decisiones
+  
 16.(T) Que es una tabla de hechos 
 
 ***Una tabla de hechos es una estructura de datos que almacena métricas cuantitativas clave y se utiliza  para realizar análisis y tomar decisiones informadas sobre el desempeño de una organización***
  
-17.	(P) Como sería un modelo de estrella para esa bodega de datos. 
+17.	(P) Como sería un modelo de estrella para esa bodega de datos.
+
+### Tabla de Hechos (Fact Table):
++ IDTransaccion (Clave principal de la tabla de hechos)
++ IDCuenta (Clave foránea a la dimensión de Cuentas)
++ IDCliente (Clave foránea a la dimensión de Clientes)
++ IDProductoFinanciero (Clave foránea a la dimensión de Productos Financieros)
++ IDTiempo (Clave foránea a la dimensión de Tiempo)
++ MontoTransaccion
+
+### Dimensión de Clientes (Customer Dimension):
+
++ IDCliente (Clave principal)
++ NombreCliente
++ Apellido
++ NumeroIdentificacion
++  Otros detalles de clientes (dirección, teléfono, correo electrónico, etc.)
+
+### Dimensión de Productos Financieros (Financial Products Dimension):
+
++  IDProductoFinanciero (Clave principal)
++  NombreProducto
++  Descripcion
++  TasaInteres
++  Otros detalles de productos financieros (plazo, monto mínimo, etc.)
+
+### Dimensión de Cuentas (Accounts Dimension):
+
++  IDCuenta (Clave principal)
++  NumeroCuenta
++  Saldo
++  FechaApertura
++  Otros detalles de cuentas
  
-18.	(T) ¿Cómo sería la mejor manera para presentar estos datos al usuario final? 
- 
+19.	(T) ¿Cómo sería la mejor manera para presentar estos datos al usuario final? 
+
+ ****Por medio de un dashboard seria la manera más optima para representar al cliente el comportamiento del modelo y registros en la base de datos**
 19.	(T) Para que se usan las medidas en un modelo BI 
 
 ***Para realizar:***
