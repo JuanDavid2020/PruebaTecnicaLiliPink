@@ -4,11 +4,17 @@ Prueba tecnica desarrollador
 
 ## Conceptual  
 1.	Explica la diferencia entre una lista y una tupla en Python.
+
 ***la principal diferencia entre listas y tuplas es su mutabilidad. Las listas son mutables, mientras que las tuplas son inmutables.*** 
+
 2.	¿Cuál es la diferencia entre un modelo y una vista en el marco de trabajo Django?
+
 ***Los modelos se enfocan en la representación y el acceso a la base de datos, mientras que las vistas se enfocan en la lógica de presentación y cómo se responden a las solicitudes HTTP. Django utiliza el enfoque MVC (Modelo-Vista-Controlador), en el que los modelos representan la parte de datos (Modelo), las vistas manejan la presentación y la lógica de negocio (Vista) y los controladores (manejadores de URL) se ocupan de enrutar las solicitudes a las vistas apropiadas.***
+
 3.	Describe qué es la recursión en programación y proporciona un ejemplo en Python.
+
 ***La recursión en programación es un concepto que se refiere a la capacidad de una función o método para llamarse a sí mismo para resolver un problema. En lugar de resolver un problema directamente, la recursión divide el problema en instancias más pequeñas y similares del mismo problema y las resuelve de manera recursiva. Cada llamada recursiva se realiza con datos más pequeños, y esta subdivisión continúa hasta que se alcanza un caso base en el que el problema se resuelve directamente sin más llamadas recursivas.***
+
 ```python
   def suma_enteros(n):
       if n == 1:
